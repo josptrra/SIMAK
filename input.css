@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.item-gradient {
+  @apply absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 opacity-70;
+}
+
+.hoverlink {
+  @apply hover:scale-90 duration-300;
+}
+
+.show {
+  @apply block;
+}
+
+.card-flex-row {
+  @apply w-[250px] flex flex-row bg-white rounded-md p-4 hoverlink;
+}
+
+.card-flex-col {
+  @apply w-[400px] flex flex-col h-[100px] bg-white rounded-md p-4 mb-4;
+}
+
+.style-input {
+  @apply border w-full py-[6px] pl-2 bg-slate-100 rounded-md border-gray-200 focus:ring-1 focus:ring-birutua focus:rounded-md my-2;
+}
+
+.tabs {
+  @apply bg-white text-black;
+}
+.tabs-aktif {
+  @apply bg-[#144272] text-white;
+}
