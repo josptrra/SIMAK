@@ -32,3 +32,35 @@
 .tabs-aktif {
   @apply bg-[#144272] text-white;
 }
+
+.navbar-style {
+  @apply w-[1220px] flex flex-row items-center mx-auto justify-between;
+}
+
+.db-container {
+  @apply w-full h-[152px] border border-gray-300 flex flex-col rounded-md relative;
+}
+
+.link-style {
+  @apply flex flex-row p-1 border border-gray-500 rounded-md mr-3 px-2 border-b-4 border-b-birutua;
+}
+
+.card-hover-t {
+  @apply absolute left-0 top-0 h-0 w-0 border-t-2 border-birutua transition-all duration-500 group-hover:w-full;
+}
+
+.card-hover-r {
+  @apply absolute right-0 top-0 h-0 w-0 border-r-2 border-birutua transition-all duration-500 group-hover:h-full;
+}
+
+.card-hover-b {
+  @apply absolute bottom-0 right-0 h-0 w-0 border-b-2 border-birutua transition-all duration-500 group-hover:w-full;
+}
+
+.card-hover-l {
+  @apply absolute bottom-0 left-0 h-0 w-0 border-l-2 border-birutua transition-all duration-500 group-hover:h-full;
+}
+
+.home-logout-link {
+  @apply flex flex-row mx-3 border-b-2 border-birutua rounded-sm text-sm;
+}
