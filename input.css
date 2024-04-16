@@ -64,3 +64,7 @@
 .home-logout-link {
   @apply flex flex-row mx-3 border-b-2 border-birutua rounded-sm text-sm;
 }
+
+.input-bio {
+  @apply w-full outline-none p-1 py-3 md:p-2 text-xs md:text-sm rounded-md border border-l-gray-400 focus:ring-2 focus:ring-yellow-400 focus:border-none focus:rounded-md flex mx-auto mr-3;
+}
