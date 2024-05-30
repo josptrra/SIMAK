@@ -263,11 +263,14 @@
           </table>
           <!-- Button Print -->
           <div class="bg-slate-100">
-            <button
+            <a
+              href="#"
               class="my-4 border-2 border-birutua p-2 text-sm hover:text-white hover:bg-birusemi rounded-sm w-[180px]"
+              data-modal-target="popup-modal5"
+              data-modal-toggle="popup-modal5"
             >
               Ambil Mata Kuliah
-            </button>
+            </a>
             <button
               class="my-4 border-2 border-birutua p-2 text-sm hover:text-white hover:bg-birusemi rounded-sm w-[180px] ml-4"
             >
@@ -486,6 +489,7 @@
         </div>
       </div>
     </div>
+    <!-- Log out modal -->
     <div
       id="popup-modal1"
       tabindex="-1"
@@ -550,6 +554,211 @@
             </button>
           </div>
         </div>
+      </div>
+    </div>
+    <!-- Ambil MK modal -->
+    <div
+      id="popup-modal5"
+      tabindex="-1"
+      class="hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-[1220px] mx-auto md:inset-0 h-[calc(100%-1rem)] max-h-screen"
+    >
+      <div
+        class="w-full block bg-white text-sm content overflow-y-scroll max-h-[640px] font-bold"
+      >
+        <table class="w-full">
+          <tr class="text-white bg-birusemi">
+            <th rowspan="2" class="p-2 border-2">Check</th>
+            <th rowspan="2" class="p-8 py-4 border-2 whitespace-nowrap">
+              Kode MK
+            </th>
+            <th rowspan="2" class="p-8 border-2">Mata Kuliah</th>
+            <th rowspan="2" class="p-2 border-2">SKS</th>
+            <th rowspan="2" class="p-3 border-2">Dosen</th>
+            <th rowspan="2" class="p-8 border-2">Ruangan</th>
+          </tr>
+          <tr></tr>
+          <tr>
+            <td class="p-4 border-2 text-center">
+              <input type="checkbox" class="rounded-sm" />
+            </td>
+            <td class="p-4 border-2 text-center">FSK3227</td>
+            <td class="p-4 border-2 text-center">
+              PENGOLAHAN CITRA DIGITAL/PENGOLAHAN CITRA
+            </td>
+            <td class="p-2 border-2 text-center">3</td>
+            <td class="p-4 px-2 border-2 text-center">
+              JULIAN SUPARDI, M.T., PH.D.
+            </td>
+            <td class="p-4 border-2 text-center">D 1.1</td>
+          </tr>
+          <tr>
+            <td class="p-4 border-2 text-center">
+              <input type="checkbox" class="rounded-sm" />
+            </td>
+            <td class="p-4 border-2 text-center">FTI2208</td>
+            <td class="p-4 border-2 text-center">Etika Profesi</td>
+            <td class="p-2 border-2 text-center">2</td>
+            <td class="p-4 px-2 border-2 text-center">
+              SAMSURYADI, M.KOM., PH.D.
+            </td>
+            <td class="p-4 border-2 text-center">D 1.4</td>
+          </tr>
+          <tr>
+            <td class="p-4 border-2 text-center">
+              <input type="checkbox" class="rounded-sm" />
+            </td>
+            <td class="p-4 border-2 text-center">FTI2209</td>
+            <td class="p-4 border-2 text-center">REKAYASA PERANGKAT LUNAK</td>
+            <td class="p-2 border-2 text-center">3</td>
+            <td class="p-4 px-2 border-2 text-center">
+              JULIAN SUPARDI, M.T., PH.D.
+            </td>
+            <td class="p-4 border-2 text-center">D 1.1</td>
+          </tr>
+          <tr>
+            <td class="p-4 border-2 text-center">
+              <input type="checkbox" class="rounded-sm" />
+            </td>
+            <td class="p-4 border-2 text-center">FTI2210</td>
+            <td class="p-4 border-2 text-center">TEORI BAHASA DAN OTOMATA</td>
+            <td class="p-2 border-2 text-center">3</td>
+            <td class="p-4 border-2 px-2 text-center">NOVI YUSLIANI, M.T.</td>
+            <td class="p-4 border-2 text-center">D 1.1</td>
+          </tr>
+          <tr>
+            <td class="p-4 border-2 text-center">
+              <input type="checkbox" class="rounded-sm" />
+            </td>
+            <td class="p-4 border-2 text-center">FTI2211</td>
+            <td class="p-4 border-2 text-center">PEMROGRAMAN WEB II</td>
+            <td class="p-2 border-2 text-center">3</td>
+            <td class="p-4 border-2 px-2 text-center">
+              JUNIA KURNIATI, M.KOM.
+            </td>
+            <td class="p-4 border-2 text-center">D 2.1</td>
+          </tr>
+          <tr>
+            <td class="p-4 border-2 text-center">
+              <input type="checkbox" class="rounded-sm" />
+            </td>
+            <td class="p-4 border-2 text-center">FTI2213</td>
+            <td class="p-4 border-2 text-center">KECERDASAN BUATAN</td>
+            <td class="p-2 border-2 text-center">3</td>
+            <td class="p-4 border-2 px-2 text-center">RIZKI KURNIATI, M.T.</td>
+            <td class="p-4 border-2 text-center">D 3.1</td>
+          </tr>
+          <tr>
+            <td class="p-4 border-2 text-center">
+              <input type="checkbox" class="rounded-sm" />
+            </td>
+            <td class="p-4 border-2 text-center">FTI2214</td>
+            <td class="p-4 border-2 text-center">
+              PENGEMBANGAN PERANGKAT LUNAK BERORIENTASI OBYEK
+            </td>
+            <td class="p-2 border-2 text-center">3</td>
+            <td class="p-4 border-2 px-2 text-center">
+              DESTY RODIAH, S.KOM., M.T.
+            </td>
+            <td class="p-4 border-2 text-center">D 2.1</td>
+          </tr>
+          <tr>
+            <td class="p-4 border-2 text-center">
+              <input type="checkbox" class="rounded-sm" />
+            </td>
+            <td class="p-4 border-2 text-center">FTI2215</td>
+            <td class="p-4 border-2 text-center">
+              PRAKTIKUM PENGEMBANGAN PERANGKAT LUNAK BERORIENTASI OBYEK
+            </td>
+            <td class="p-2 border-2 text-center">1</td>
+            <td class="p-4 border-2 px-2 text-center">
+              DESTY RODIAH, S.KOM., M.T.
+            </td>
+            <td class="p-4 border-2 text-center">D 2.1</td>
+          </tr>
+          <tr>
+            <td class="p-4 border-2 text-center">
+              <input type="checkbox" class="rounded-sm" />
+            </td>
+            <td class="p-4 border-2 text-center">FTI3227</td>
+            <td class="p-4 border-2 text-center">DATA WAREHOUSE</td>
+            <td class="p-2 border-2 text-center">3</td>
+            <td class="p-4 border-2 px-2 whitespace-nowrap text-center">
+              OSVARI ARSALAN, S.KOM., M.T.
+            </td>
+            <td class="p-4 border-2 text-center">D 2.1</td>
+          </tr>
+          <tr>
+            <td class="p-4 border-2 text-center">
+              <input type="checkbox" class="rounded-sm" />
+            </td>
+            <td class="p-4 border-2 text-center">FTI3227</td>
+            <td class="p-4 border-2 text-center">DATA WAREHOUSE</td>
+            <td class="p-2 border-2 text-center">3</td>
+            <td class="p-4 border-2 px-2 whitespace-nowrap text-center">
+              OSVARI ARSALAN, S.KOM., M.T.
+            </td>
+            <td class="p-4 border-2 text-center">D 2.1</td>
+          </tr>
+          <tr>
+            <td class="p-4 border-2 text-center">
+              <input type="checkbox" class="rounded-sm" />
+            </td>
+            <td class="p-4 border-2 text-center">FTI3227</td>
+            <td class="p-4 border-2 text-center">DATA WAREHOUSE</td>
+            <td class="p-2 border-2 text-center">3</td>
+            <td class="p-4 border-2 px-2 whitespace-nowrap text-center">
+              OSVARI ARSALAN, S.KOM., M.T.
+            </td>
+            <td class="p-4 border-2 text-center">D 2.1</td>
+          </tr>
+          <tr>
+            <td class="p-4 border-2 text-center">
+              <input type="checkbox" class="rounded-sm" />
+            </td>
+            <td class="p-4 border-2 text-center">FTI3227</td>
+            <td class="p-4 border-2 text-center">DATA WAREHOUSE</td>
+            <td class="p-2 border-2 text-center">3</td>
+            <td class="p-4 border-2 px-2 whitespace-nowrap text-center">
+              OSVARI ARSALAN, S.KOM., M.T.
+            </td>
+            <td class="p-4 border-2 text-center">D 2.1</td>
+          </tr>
+          <tr>
+            <td class="p-4 border-2 text-center">
+              <input type="checkbox" class="rounded-sm" />
+            </td>
+            <td class="p-4 border-2 text-center">FTI3227</td>
+            <td class="p-4 border-2 text-center">DATA WAREHOUSE</td>
+            <td class="p-2 border-2 text-center">3</td>
+            <td class="p-4 border-2 px-2 whitespace-nowrap text-center">
+              OSVARI ARSALAN, S.KOM., M.T.
+            </td>
+            <td class="p-4 border-2 text-center">D 2.1</td>
+          </tr>
+          <tr>
+            <td class="p-4 border-2 text-center">
+              <input type="checkbox" class="rounded-sm" />
+            </td>
+            <td class="p-4 border-2 text-center">FTI3227</td>
+            <td class="p-4 border-2 text-center">DATA WAREHOUSE</td>
+            <td class="p-2 border-2 text-center">3</td>
+            <td class="p-4 border-2 px-2 whitespace-nowrap text-center">
+              OSVARI ARSALAN, S.KOM., M.T.
+            </td>
+            <td class="p-4 border-2 text-center">D 2.1</td>
+          </tr>
+        </table>
+        <button
+          class="my-4 border-2 border-birutua p-2 text-sm hover:text-white hover:bg-birusemi rounded-sm w-[180px] ml-4"
+        >
+          Submit
+        </button>
+        <button
+          class="my-4 border-2 border-birutua p-2 text-sm hover:text-white hover:bg-birusemi rounded-sm w-[180px] ml-4"
+          data-modal-hide="popup-modal5"
+        >
+          Batal
+        </button>
       </div>
     </div>
     <footer class="w-full h-9 bg-birutua mt-8">
